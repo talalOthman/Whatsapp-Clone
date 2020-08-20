@@ -30,7 +30,9 @@
 .sidebar__searchContainer > input{
     border: none;
     margin-left: 10px; 
+    outline: none;
 }
+
 
 .sidebar__header{
     display: flex;
