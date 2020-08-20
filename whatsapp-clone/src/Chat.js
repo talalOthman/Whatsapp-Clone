@@ -26,10 +26,17 @@ function Chat() {
                     <IconButton>
                         <SearchOutlined />
                     </IconButton>
+                    <IconButton>
+                        <AttachFile />
+                    </IconButton>
+                    <IconButton>
+                        <MoreVert />
+                    </IconButton>
                 </div>
             </div>
             <div className="chat__body">
 
+                
             </div>
             <div className="chat__footer">
 
