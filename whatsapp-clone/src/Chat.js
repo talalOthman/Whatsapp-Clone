@@ -11,8 +11,11 @@ function Chat() {
     const [input, setInput] = useState('');
 
     const sendMessage = (e) =>{
+        e.preventDefault();
+        console.log(input);
+        setInput("");
 
-    }
+    };
 
     useEffect(() => {
         return () => {
