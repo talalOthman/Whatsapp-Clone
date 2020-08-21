@@ -34,7 +34,7 @@ function Chat() {
         return () => {
             setSeed(Math.floor(Math.random() * 5000));
         }
-    }, [])
+    }, [roomId])
     return (
         <div className="chat">
             <div className="chat__header">
