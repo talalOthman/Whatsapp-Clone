@@ -30,7 +30,7 @@ function SidbarChat({ addNewChat, id, name }) {
                         doc.data()
                     )));
         }
-    })
+    }, [id])
 
     return !addNewChat ? (
 
